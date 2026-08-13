@@ -48,3 +48,24 @@ input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px #2a3942 inset;
   transition: background-color 5000s ease-in-out 0s;
 }
+/* Mobile view (Default styles) */
+.my-box {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Tablets and Desktops (Screen size 768px and above) */
+@media (min-width: 768px) {
+  .my-box {
+    width: 50%;
+    padding: 20px;
+  }
+}
+
+/* Desktop screens (Screen size 1024px and above) */
+@media (min-width: 1024px) {
+  .my-box {
+    width: 30%;
+    padding: 30px;
+  }
+}
